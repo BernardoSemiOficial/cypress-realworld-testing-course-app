@@ -4,7 +4,7 @@ describe("Home Page", () => {
   })
 
   it("deve ter o titulo Testing Next.js Applications with Cypress no elemento h1 da página home", () => {
-    cy.get('[data-test="hero-heading"]').contains(
+    cy.getByData("hero-heading").contains(
       "Testing Next.js Applications with Cypress"
     )
   })
