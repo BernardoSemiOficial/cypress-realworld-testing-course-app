@@ -1,11 +1,4 @@
-class HomePage {
-  elements = {
-    emailInput: () => cy.getByData("email-input"),
-    submitButton: () => cy.getByData("submit-button"),
-    successMessage: () => cy.getByData("success-message"),
-    errorMessage: () => cy.getByData("server-error-message"),
-  }
-}
+import { HomePage } from "../models/home-page.model"
 
 const homePage = new HomePage()
 

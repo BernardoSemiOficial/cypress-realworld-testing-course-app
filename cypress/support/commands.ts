@@ -4,10 +4,17 @@ declare namespace Cypress {
   interface Chainable {
     getByData(dataTestAttribute: string): Chainable<JQuery<HTMLElement>>
   }
+  interface Chainable {
+    pathnameEqual(pathname: string): Cypress.Chainable<string>
+  }
 }
 
 Cypress.Commands.add("getByData", (selector) => {
   return cy.get(`[data-test=${selector}]`)
+})
+
+Cypress.Commands.add("pathnameEqual", (pathname) => {
+  return cy.location("pathname").should("equal", pathname)
 })
 
 // ***********************************************
