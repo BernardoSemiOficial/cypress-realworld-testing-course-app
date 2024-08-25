@@ -7,6 +7,6 @@ Esta aplicação é para o curso [Testando sua primeira aplicação](https://lea
 ## Temas abortados no curso
 
 - [x] Testing Your First Application;
-- [] Testing Foundations;
-- [] Cypress Fundamentals;
-- [] Advanced Cypress Testing Concepts;
+- [ ] Testing Foundations;
+- [ ] Cypress Fundamentals;
+- [ ] Advanced Cypress Testing Concepts;
