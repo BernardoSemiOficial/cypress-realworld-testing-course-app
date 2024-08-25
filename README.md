@@ -2,7 +2,7 @@
 
 Esta aplicação é para o curso [Testando sua primeira aplicação](https://learn.cypress.io/testing-your-first-application) no [learn.cypress.io](https://learn.cypress.io/).
 
-![Testes Automatizados](public/videos/user-journey.cy.ts.mp4)
+https://github.com/user-attachments/assets/6ce77bf2-fb90-4613-8b26-d442dadfd609
 
 ## Temas abortados no curso
 
